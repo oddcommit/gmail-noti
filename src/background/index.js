@@ -19,7 +19,7 @@ setInterval(function () {
       chrome.browserAction.setBadgeText({ text: '' })
     }
   })
-}, 10* 1000)
+}, 60 * 1000)
 
 // This needs to be an export due to typescript implementation limitation of needing '--isolatedModules' tsconfig
 export function taskInBackground() {
@@ -31,8 +31,10 @@ export function taskInBackground() {
         if (err) {
           throw err
         }
+        chrome.browserAction.setBadgeBackgroundColor({ color: '#005282' })
+        console.log(result.feed);
         chrome.browserAction.setBadgeText({
-          text: result.feed.fullcount[0],
+          text: result.feed.fullcount[0] === '0' ? '' : result.feed.fullcount[0],
         })
         let isGmailLogedIn = true
         chrome.storage.local.set({ isGmailLogedIn }, function () {})

@@ -35,10 +35,12 @@ class Notifications extends Component {
           gmailData: result,
         })
 
+        chrome.browserAction.setBadgeText({
+          text:
+            result.feed.fullcount[0] === '0' ? '' : result.feed.fullcount[0],
+        })
       })
- 
     })
-
   }
   updateTodayFlag = () => {
     this.today = true
@@ -60,8 +62,10 @@ class Notifications extends Component {
     return date1.diff(date2, 'days')
   }
   render() {
-
-    var entrys = (this.state.gmailData && this.state.gmailData.feed.entry)? this.state.gmailData.feed.entry : []
+    var entrys =
+      this.state.gmailData && this.state.gmailData.feed.entry
+        ? this.state.gmailData.feed.entry
+        : []
     return (
       <Container fixed="top">
         {entrys.map((entry, index) => {
@@ -111,7 +115,10 @@ class Notifications extends Component {
                   ? this.updateMoreThanAWeek()
                   : null}
               </Row>
-              <Row className="row" onClick={()=>this.openSourcePage(entry.link[0].$.href)}>
+              <Row
+                className="row"
+                onClick={() => this.openSourcePage(entry.link[0].$.href)}
+              >
                 <div className="list-item">
                   <div className="mager-content">
                     {entry.title[0].length > 42
@@ -120,7 +127,7 @@ class Notifications extends Component {
                         entry.title[0].substring(0, 42) +
                         '...'
                       : entry.author[0].name[0] + ': ' + entry.title[0]}
-                      {/* <span class="tooltiptext">{entry.summary[0]}</span> */}
+                    {/* <span class="tooltiptext">{entry.summary[0]}</span> */}
                   </div>
                   <div className="minor-content">
                     <Moment toNow>{entry.issued[0]}</Moment>{' '}
