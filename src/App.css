@@ -1,40 +1,130 @@
-.App {
-  text-align: center;
+.message {
+  border-bottom: 1px solid rgb(118, 118, 118);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list-header {
+  color: rgb(66, 66, 66);
+  border-top: 1px solid rgb(222, 222, 222);
+  border-bottom: 1px solid rgb(222, 222, 222);
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #f5f5f5;
+}
+.list-item {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-left: 7px solid rgb(212, 70, 56);
+  border-bottom: 1px solid rgb(222, 222, 222);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.row:hover {
+  background-color: #dfe2ff;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 150px;
-  min-width: 150px;
-  padding: 30px;
+.mager-content {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 2px;
+  font-size: 14px;
+  line-height: 20px;
+  text-overflow: inherit;
+  overflow: inherit;
+}
+
+.minor-content {
+  font-size: 12px;
+  color: rgb(173, 173, 173);
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.welcome-image {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  height: 100px;
+}
+
+p {
+  margin-top: 14px;
+  margin-bottom: 1rem;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.settings-description {
+  border-bottom: 1px solid #dedede;
+  line-height: 175%;
+  font-size: 16px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 22px;
+  padding-bottom: 18px;
+}
+
+.platform-item {
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.settings-save {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 15px;
+}
+
+.save-btn {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: static;
+  z-index: 1;
+}
+
+.mager-content:hover .tooltiptext {
+  visibility: visible;
+}
+
+.label {
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  font-weight: 700;
   color: white;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
 }
 
-.App-link {
-  color: #61dafb;
+.label-warning {
+  background-color: #f0ad4e;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.label-success {
+  background-color: #5cb85c;
+}
+
+.version {
+  text-align: center;
+  padding-top: 190px;
+  font-size: small;
+  opacity: 0.3;
 }

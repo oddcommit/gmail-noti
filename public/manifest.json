@@ -1,15 +1,15 @@
 {
   "manifest_version": 2,
   "version": "0.0.1",
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "description": "Sample application showing how to create an extension with Create React App",
+  "short_name": "Notify",
+  "name": "Notify App",
+  "description": "View new emails and count in Gmail easily with  Notify App",
   "browser_action": {
     "default_title": "CRE",
     "default_popup": "popup.html"
   },
   "background": {
-    "scripts": ["background.bundle.js"]
+    "scripts": ["./js/jquery-3.6.0.min.js","background.bundle.js"]
   },
   "content_scripts": [
     {
@@ -18,11 +18,14 @@
     }
   ],
   "icons": {
-    "16": "img/icon-16.png",
-    "48": "img/icon-48.png",
-    "128": "img/icon-128.png"
+    "16": "img/notification-bell-16.png",
+    "48": "img/notification-bell-64.png",
+    "128": "img/notification-bell-128.png"
   },
   "options_page": "options.html",
-  "permissions": ["activeTab"],
+  "permissions": [
+    "storage",
+    "cookies"
+  ],
   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }
