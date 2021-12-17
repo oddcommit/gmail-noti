@@ -1,11 +1,11 @@
 {
   "manifest_version": 2,
   "version": "0.0.1",
-  "short_name": "Notify",
+  "short_name": "Blue Bell Notifier",
   "name": "Notify App",
   "description": "View new emails and count in Gmail easily with  Notify App",
   "browser_action": {
-    "default_title": "CRE",
+    "default_title": "Blue Bell",
     "default_popup": "popup.html"
   },
   "background": {
