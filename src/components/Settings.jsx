@@ -2,10 +2,12 @@
 import React, { Component } from 'react'
 import { Button, Form, Col, Row } from 'react-bootstrap'
 import { goTo } from 'react-chrome-extension-router'
+import * as Icon from 'react-bootstrap-icons';
 import '../App.css'
 
 import Welcome from './Welcome'
 import axios from 'axios'
+import SettinngsInfo from './models/SettinngsInfo'
 
 class Settings extends Component {
   constructor() {
@@ -16,6 +18,7 @@ class Settings extends Component {
       facebook: false,
       github: false,
       isGmailLogedIn: false,
+      infoModelState : false
     }
   }
   stateChange = () => {
@@ -52,6 +55,20 @@ class Settings extends Component {
       })
   }
 
+  open = () =>{
+    console.log('open')
+    this.setState({
+      infoModelState : true
+    })
+  }
+
+
+  close = () => {
+    this.setState({
+      infoModelState: false,
+    })
+  }
+  
   save = () => {
     let platforms = {
       gmail: this.state.gmail,
@@ -84,9 +101,8 @@ class Settings extends Component {
         <div className="settings-description">
           Select the platforms you'd like to be notified on.
         </div>
-
         <div className="list-header">
-          PLATFORMS
+          PLATFORMS <Icon.InfoCircle onClick = {this.open}/>
           
         </div>
         <div className="platform-item">
@@ -143,6 +159,17 @@ class Settings extends Component {
         <div className ="version">
           Version 0.01
         </div>
+        <SettinngsInfo
+         show={this.state.infoModelState}
+         onHide={this.close}
+         refersh={this.componentDidMount}
+        ></SettinngsInfo>
+        {/* <settinngsInfo
+          show={this.state.infoModelState}
+          onHide={this.close}
+          refersh={this.componentDidMount}
+        ></settinngsInfo> */}
+        
       </div>
     )
   }
