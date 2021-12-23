@@ -13,6 +13,14 @@ Blue Bell is Browser Extension allows users to aggregate multiple feeds and noti
 <a href="https://addons.mozilla.org/en-US/firefox/addon/octolinker/"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_128x128.png" width="48" /></a>
 <a href="https://apps.apple.com/app/octolinker/id1549308269"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_128x128.png" width="48" /></a>
 
+### Screenshots 
+
+<p float="left">
+  <img src="https://github.com/midhunz/blue-bell-notifier/blob/master/screenshots/1.png?raw=true" width="150" height ="260"/>
+  <img src="https://github.com/midhunz/blue-bell-notifier/blob/master/screenshots/2.png?raw=true" width="150" height ="260"/> 
+  <img src="https://github.com/midhunz/blue-bell-notifier/blob/master/screenshots/3.png?raw=true" width="150" height ="260"/>
+</p>
+
 ### **Features**
 
     ✅ You can receive notifications from multiple platforms in one place.
@@ -39,6 +47,14 @@ Blue Bell is Browser Extension allows users to aggregate multiple feeds and noti
 
 ### 👩‍💻 For Developers
     built with React
+
+#### How to try the precompiled
+
+    1. Select the right branch 
+    2. Run npm install && npm build 
+    3 Open a browser tab for `chrome://extensions` and turn on the developer mode
+    5. Point the browse button to the root/build directory
+
 ### Contributing
 
 ### License
