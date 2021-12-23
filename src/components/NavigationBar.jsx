@@ -5,6 +5,7 @@ import styled from 'styled-components'
 import { goTo } from 'react-chrome-extension-router'
 import Settings from './Settings'
 import Welcome from './Welcome'
+import * as Icon from 'react-bootstrap-icons';
 
 class NavigationBar extends Component {
 
@@ -44,9 +45,9 @@ class NavigationBar extends Component {
 
     return (
       <Styles>
-        <Navbar expand="lg" >
+        <Navbar expand="rg" >
           <Navbar.Brand >Notify</Navbar.Brand>
-          <Nav.Link onClick ={this.menu}><b>⋮</b></Nav.Link>
+          <Nav.Link onClick ={this.menu}><Icon.Gear/></Nav.Link>
         </Navbar>
       </Styles>
     )

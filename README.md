@@ -25,12 +25,15 @@ Blue Bell is Browser Extension allows users to aggregate multiple feeds and noti
 
 ### Does Blue Bell store anything of me?
     🔅 Nothing is stored on servers.
-    🔅 The only thing being locally stored for caching purposes are your notifications for a faster loading time.
+    🔅 The only thing being locally stored for caching purposes ,
+        are your notifications for a faster loading time.
     
 
 ### Related projects
 
-    The project is inspired by the Chrome extension Notyfy. The plugin reads my emails without authentication on my browser, so I wondered how it could do that. 
+    The project is inspired by the Chrome extension Notyfy.
+    The plugin reads my emails without authentication on my browser,
+    so I wondered how it could do that. 
 
 ### Built with
 

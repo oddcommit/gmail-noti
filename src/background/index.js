@@ -32,23 +32,26 @@ export function taskInBackground() {
           throw err
         }
         chrome.browserAction.setBadgeBackgroundColor({ color: '#005282' })
-        console.log(result.feed);
+        console.log(result.feed)
         chrome.browserAction.setBadgeText({
-          text: result.feed.fullcount[0] === '0' ? '' : result.feed.fullcount[0],
+          text:
+            result.feed.fullcount[0] === '0' ? '' : result.feed.fullcount[0],
         })
         let isGmailLogedIn = true
         chrome.storage.local.set({ isGmailLogedIn }, function () {})
       })
     })
     .catch(function (error) {
-      chrome.storage.local.get(['storage'], (result) => {
-        let isGmailLogedIn = false
-        chrome.storage.local.set({ isGmailLogedIn }, function () {})
-      })
+      if (error.status === 401) {
+        chrome.storage.local.get(['storage'], (result) => {
+          let isGmailLogedIn = false
+          chrome.storage.local.set({ isGmailLogedIn }, function () {})
+        })
 
-      chrome.browserAction.setBadgeBackgroundColor({ color: 'red' })
-      chrome.browserAction.setBadgeText({
-        text: '!',
-      })
+        chrome.browserAction.setBadgeBackgroundColor({ color: 'red' })
+        chrome.browserAction.setBadgeText({
+          text: '!',
+        })
+      }
     })
 }
