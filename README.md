@@ -7,6 +7,9 @@
 
 Blue Bell is Browser Extension allows users to aggregate multiple feeds and notifications into one place without compromising their privacy
 
+
+[![GitHub issues](https://img.shields.io/github/issues/midhunz/blue-bell-notifier)](https://github.com/midhunz/blue-bell-notifier/issues)
+
 ## Install
 
 <a href="https://chrome.google.com/webstore/detail/octolinker/jlmafbaeoofdegohdhinkhilhclaklkp"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_128x128.png" width="48" /></a>
@@ -16,9 +19,9 @@ Blue Bell is Browser Extension allows users to aggregate multiple feeds and noti
 ### Screenshots 
 
 <p float="left">
-  <img src="https://github.com/midhunz/blue-bell-notifier/blob/master/screenshots/1.png?raw=true" width="150" height ="260"/>
-  <img src="https://github.com/midhunz/blue-bell-notifier/blob/master/screenshots/2.png?raw=true" width="150" height ="260"/> 
-  <img src="https://github.com/midhunz/blue-bell-notifier/blob/master/screenshots/3.png?raw=true" width="150" height ="260"/>
+  <img src="https://github.com/midhunz/blue-bell-notifier/blob/master/Documents/screenshots/1.png?raw=true" width="150" height ="260"/>
+  <img src="https://github.com/midhunz/blue-bell-notifier/blob/master/Documents/screenshots/2.png?raw=true" width="150" height ="260"/> 
+  <img src="https://github.com/midhunz/blue-bell-notifier/blob/master/Documents/screenshots/3.png?raw=true" width="150" height ="260"/>
 </p>
 
 ### **Features**
@@ -56,6 +59,8 @@ Blue Bell is Browser Extension allows users to aggregate multiple feeds and noti
     5. Point the browse button to the root/build directory
 
 ### Contributing
+
+Make sure you build is green before you contribute your pull request.
 
 ### License
 
