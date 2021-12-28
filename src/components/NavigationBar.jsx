@@ -46,7 +46,7 @@ class NavigationBar extends Component {
     return (
       <Styles>
         <Navbar expand="rg" >
-          <Navbar.Brand >Notify</Navbar.Brand>
+          <Navbar.Brand >Blue Bell</Navbar.Brand>
           <Nav.Link onClick ={this.menu}><Icon.Gear/></Nav.Link>
         </Navbar>
       </Styles>

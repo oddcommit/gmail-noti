@@ -128,3 +128,8 @@ p {
   font-size: small;
   opacity: 0.3;
 }
+
+.text-v-middle {
+  padding-top: 150px;
+  opacity: .4;
+}

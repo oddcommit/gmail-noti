@@ -7,6 +7,7 @@ import '../App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Moment from 'react-moment'
 import moment from 'moment'
+import EmptyNotification from './EmptyNotification'
 class Notifications extends Component {
   constructor() {
     super()
@@ -61,13 +62,18 @@ class Notifications extends Component {
     const date2 = moment(fromDate)
     return date1.diff(date2, 'days')
   }
+
+  
   render() {
     var entrys =
       this.state.gmailData && this.state.gmailData.feed.entry
         ? this.state.gmailData.feed.entry
         : []
     return (
-      <Container fixed="top">
+      <Container fixed="top"> 
+        {console.log('inside empty',entrys.length)}
+        {this.state.gmailData && entrys.length < 1?  <EmptyNotification/>: ''}
+       
         {entrys.map((entry, index) => {
           return (
             <div>
@@ -135,6 +141,7 @@ class Notifications extends Component {
                   </div>
                 </div>
               </Row>
+              
             </div>
           )
         })}
