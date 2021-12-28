@@ -12,9 +12,9 @@ Blue Bell is Browser Extension allows users to aggregate multiple feeds and noti
 
 ## Install
 
-<a href="#"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_128x128.png" width="48" /></a>
-<a href="#"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_128x128.png" width="48" /></a>
-<a href="#"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_128x128.png" width="48" /></a>
+<a href="https://chrome.google.com/webstore/detail/notify-app/dokpofkkaggijbeeaeijobkhjfdijjec"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_128x128.png" width="48" /></a>
+<!-- <a href="#"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_128x128.png" width="48" /></a>
+<a href="#"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_128x128.png" width="48" /></a> -->
 
 ### Screenshots
 

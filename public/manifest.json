@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "version": "0.0.1",
   "short_name": "Blue Bell Notifier",
-  "name": "Notify App",
+  "name": "Blue Bell",
   "description": "Blue Bell Extension allows users to aggregate multiple feeds and notifications into one place",
   "browser_action": {
     "default_title": "Blue Bell",
