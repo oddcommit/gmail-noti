@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "version": "0.0.1",
-  "short_name": "Blue Bell Notifier",
-  "name": "Blue Bell",
-  "description": "Blue Bell Extension allows users to aggregate multiple feeds and notifications into one place",
+  "version": "0.1.2",
+  "short_name": "Blue Bell: Gmail™ notification tool",
+  "name": "Blue Bell Gmail™ notification tool",
+  "description": "Blue Bell Gmail™ notification tool allows users to view new emails easily.",
   "browser_action": {
     "default_title": "Blue Bell",
     "default_popup": "popup.html"

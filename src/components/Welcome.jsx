@@ -38,9 +38,9 @@ class Welcome extends Component {
           className="welcome-image "
         ></img>
         <div>
-          <h2>Choose one platform</h2>
+          <h2>Enable notifications</h2>
           <p>
-            Make sure you're logged into your platforms and check the settings
+          Make sure you're logged into Gmail. Navigate to settings and allow Extention to read Gmail notifications.
           </p>
         </div>
         <div>
