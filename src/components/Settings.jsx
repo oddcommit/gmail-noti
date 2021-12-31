@@ -99,7 +99,7 @@ class Settings extends Component {
     return (
       <div>
         <div className="settings-description">
-          Select the platforms you'd like to be notified on.
+        Choose Gmail to receive notifications
         </div>
         <div className="list-header">
           PLATFORMS <Icon.InfoCircle onClick = {this.open}/>
@@ -126,7 +126,7 @@ class Settings extends Component {
               )}
             </Form.Group>
           </Row>
-          <Form.Group className="mb-3" id="formGridCheckbox">
+          {/* <Form.Group className="mb-3" id="formGridCheckbox">
             <Form.Check
               onChange={this.handleChange}
               checked={this.state.facebook}
@@ -135,8 +135,8 @@ class Settings extends Component {
               label="Facebook"
               disabled="true"
             />
-          </Form.Group>
-          <Form.Group className="mb-3" id="formGridCheckbox">
+          </Form.Group> */}
+          {/* <Form.Group className="mb-3" id="formGridCheckbox">
             <Form.Check
               onChange={this.handleChange}
               checked={this.state.github}
@@ -145,7 +145,7 @@ class Settings extends Component {
               label="github"
               disabled="true"
             />
-          </Form.Group>
+          </Form.Group> */}
         </div>
         <div className="settings-save">
           <Button
