@@ -25,6 +25,14 @@ class Notifications extends Component {
     window.open(ref, '_blank')
   }
 
+  setLastReadtime = () => {
+    let lastReadTime = new Date();
+    console.log(lastReadTime);
+    chrome.storage.local.set({ readTime: new Date().toJSON() }, function () {
+      console.log('read time set');
+    })
+  }
+
   componentDidMount = () => {
     axios.get(`https://mail.google.com/mail/u/1/feed/atom`).then((res) => {
       const xml = res.data
@@ -36,9 +44,9 @@ class Notifications extends Component {
           gmailData: result,
         })
 
+        this.setLastReadtime();
         chrome.browserAction.setBadgeText({
-          text:
-            result.feed.fullcount[0] === '0' ? '' : result.feed.fullcount[0],
+          text:''
         })
       })
     })
