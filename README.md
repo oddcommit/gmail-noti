@@ -3,9 +3,14 @@
 <a href="https://chrome.google.com/webstore/detail/octo-linker/jlmafbaeoofdegohdhinkhilhclaklkp"><img src="https://raw.githubusercontent.com/midhunz/blue-bell-notifier/master/public/img/notification-bell-128.png" width="128"/></a
 </p>
 
-## What is Blue Bell ?
+## What is Blue Bell Gmail Notification Tool?
 
-Blue Bell is Browser Extension allows users to aggregate multiple feeds and notifications into one place without compromising their privacy
+Blue Bell Gmail™ notification tool allows users to view new emails easily.
+
+Blue bell is an open-source project that notifies you about incoming email from all your Google Mail accounts.
+
+It also allows you to see new incoming emails as soon as they arrive.Even though it is not a full-featured Gmail client, it can help you complete a few routine tasks quickly.
+
 
 
 [![GitHub issues](https://img.shields.io/github/issues/midhunz/blue-bell-notifier)](https://github.com/midhunz/blue-bell-notifier/issues)
@@ -26,25 +31,29 @@ Blue Bell is Browser Extension allows users to aggregate multiple feeds and noti
 
 ### **Features**
 
-    ✅ You can receive notifications from multiple platforms in one place.
-    ✅ There is no login required
-    ✅ Supports 
-        Gmail
-        Facebook
-        GitHub
+    ✅ You do not need to enter any credentials.
+    ✅ Use of RSS technology minimizes bandwidth consumption.
+    ✅The extension code is publicly accessible on GitHub.
+       
 
 
 ### Does Blue Bell store anything of me?
     🔅 Nothing is stored on servers.
     🔅 The only thing being locally stored for caching purposes ,
-        are your notifications for a faster loading time.
+          are your notifications for a faster loading time.
+    🔅 This extension does not track you or collect any information from you.
+    🔅 Your data is only transferred between your browser and the Google (Gmail) server.
+    🔅 No data is sent to third parties
     
 
 ### Related projects
 
     The project is inspired by the Chrome extension Notyfy.
     The plugin reads my emails without authentication on my browser,
-    so I wondered how it could do that. 
+    so I wondered how it could do that.
+
+### Privacy 
+    Gmail™ is a trademark of Google . Blue Bell has no relationship or partnership with Gmail. We use Gmail RSS APIs and show notifications.
 
 ### Built with
 
