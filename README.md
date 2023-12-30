@@ -3,7 +3,7 @@
 <a href="https://chrome.google.com/webstore/detail/octo-linker/jlmafbaeoofdegohdhinkhilhclaklkp"><img src="https://raw.githubusercontent.com/midhunz/blue-bell-notifier/master/public/img/notification-bell-128.png" width="128"/></a
 </p>
 
-## What is Blue Bell Gmail Notification Tool?
+## What is Blue Bell Gmail Notification Tool???
 
 Blue Bell Gmail™ notification tool allows users to view new emails easily.
 
