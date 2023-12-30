@@ -21,13 +21,7 @@ It also allows you to see new incoming emails as soon as they arrive.Even though
 <!-- <a href="#"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_128x128.png" width="48" /></a>
 <a href="#"><img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_128x128.png" width="48" /></a> -->
 
-### Screenshots
 
-<p float="left">
-  <img src="https://github.com/midhunz/blue-bell-notifier/blob/master/Documents/screenshots/1.png?raw=true" width="150" height ="260"/>
-  <img src="https://github.com/midhunz/blue-bell-notifier/blob/master/Documents/screenshots/2.png?raw=true" width="150" height ="260"/> 
-  <img src="https://github.com/midhunz/blue-bell-notifier/blob/master/Documents/screenshots/3.png?raw=true" width="150" height ="260"/>
-</p>
 
 ### **Features**
 
