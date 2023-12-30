@@ -55,10 +55,6 @@ It also allows you to see new incoming emails as soon as they arrive.Even though
 ### Privacy 
     Gmail™ is a trademark of Google . Blue Bell has no relationship or partnership with Gmail. We use Gmail RSS APIs and show notifications.
 
-### Built with
-
-### 👩‍💻 For Developers
-    built with React
 
 #### How to try the precompiled
 
