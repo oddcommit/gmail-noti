@@ -67,10 +67,3 @@ It also allows you to see new incoming emails as soon as they arrive.Even though
     3 Open a browser tab for `chrome://extensions` and turn on the developer mode
     5. Point the browse button to the root/build directory
 
-### Contributing
-
-Make sure you build is green before you contribute your pull request.
-
-### License
-
-This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
