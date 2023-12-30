@@ -23,13 +23,6 @@ It also allows you to see new incoming emails as soon as they arrive.Even though
 
 
 
-### **Features**
-
-    ✅ You do not need to enter any credentials.
-    ✅ Use of RSS technology minimizes bandwidth consumption.
-    ✅The extension code is publicly accessible on GitHub.
-       
-
 
 ### Does Blue Bell store anything of me?
     🔅 Nothing is stored on servers.
